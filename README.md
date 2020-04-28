@@ -1,2 +1,2 @@
 # Data-Analysis-Cars
-Data analysis in R
+Data analysis and developing a data dashboard in R using Shiny. 
