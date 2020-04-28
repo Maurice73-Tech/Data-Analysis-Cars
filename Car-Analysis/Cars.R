@@ -13,7 +13,7 @@ library(DT)
 ui <- fluidPage(
   
   # Hier koennen Sie einen Titel festlegen
-  titlePanel("Technologien und Tools f\U00FCr Data Science"),
+  titlePanel("Technologien und Tools für Data Science"),
   
   # Das sidebarLayout dient dazu Eingabemoeglichkeiten von den designierten Ausgaben zu trennen
   sidebarLayout(
@@ -24,12 +24,12 @@ ui <- fluidPage(
       # Input: Ein Slider mit einem Minimum von 1, Maximum von 40 und einem Default Wert von 10
       # Input: Ein Input kann mittels seiner inputId referenziert werden
       sliderInput(inputId = "bins",
-                  label = "Anzahl der Beh\U00E4lter:",
+                  label = "Anzahl der Behälter:",
                   min = 1,
                   max = 40,
                   value = 10),
       selectInput(inputId = "car_models",
-                  label = "W\U00E4hlen Sie das Auto!",
+                  label = "Wählen Sie das Auto!",
                   choices = rownames(mtcars),
                   multiple = TRUE,
                   selected = rownames(mtcars),
