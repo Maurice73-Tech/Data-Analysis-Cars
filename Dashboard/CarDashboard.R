@@ -2,7 +2,7 @@
 library(shinydashboard)
 
 ui <- dashboardPage(
-  dashboardHeader(title = "Basic dashboard"),
+  dashboardHeader(title = "Car Dashboard"),
   dashboardSidebar(),
   dashboardBody(
     # Boxes need to be put in a row (or column)
